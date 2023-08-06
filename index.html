@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProjectAQ - Adopt a Queen Project</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-bg">
+      <video autoplay loop muted>
+        <source src="assets/video/video-f.mp4" type="video/mp4">
+        <!-- Add alternative sources for different video formats -->
+      </video>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <div class="navbar-brand text-center w-100">
+          <!-- Replace the src attribute with the path to your logo image -->
+          <img src="assets/img/logo-w.png" alt="Logo" class="logo-image">
+        </div>
+
+        <!-- Button with radius -->
+        <a href="adopt.html" id="desk-btn" class="btn btn-primary mirrbtn">Adopt Now</a>
+
+      </div>
+    </nav>
+
+    <!-- Hero Content -->
+    <div class="hero-content text-center">
+      <h1 class="display-4" style="font-size: 4rem;font-family:bochan;">Adopt a Queen Project</h1>
+      <p class="lead" style="font-size: 2rem;font-family:bochan;">this is suitable tagline lorem ipsum</p>
+      <button id="mob-btn" class="btn btn-primary mirrbtn">Adopt Now</button>
+
+    </div>
+
+    <!-- Bee Vector (assuming it's an image) -->
+    <div class="bee-vector text-center">
+      <!-- Your bee vector image here -->
+    </div>
+
+
+    <div class="toggle-menu-btn" id="aesthetic-menu-btn">
+      <!-- SVG Vector -->
+      <img src="assets/img/menu-f.svg" alt="Menu" width="100" height="100">
+
+    </div>
+    <!-- Aesthetic Menu (hidden by default) -->
+    <div class="aesthetic-menu" id="aesthetic-menu">
+      <!-- Add your menu items here -->
+      <div class="menu-card">
+        <a class="dropdown-item" href="index.html">Home</a>
+        <a class="dropdown-item" href="about.html">About</a>
+        <a class="dropdown-item" href="adopt.html">Adopt Now</a>
+        <a class="dropdown-item" href="#contact">Contact Us</a>
+        <!-- Add more menu items here -->
+      </div>
+      <!-- Add more cards for other menu items here -->
+    </div>
+
+    <!-- Your existing scripts -->
+
+    <!-- Button to toggle the menu -->
+    <!-- <button class="toggle-menu-btn" id="aesthetic-menu-btn">Menu</button> -->
+
+    <!-- Your existing scripts -->
+
+  </section>
+
+  <!-- New Section -->
+  <section class="new-section" id="herointro"
+    style="background-image: url('assets/img/paq.png'); background-color:#fff; background-position: right; background-repeat: no-repeat; overflow: hidden;max-height:100vh;">
+    <div class="container-fluid">
+      <div class="row">
+        <div id="herointr" class="col-md-6 m-5" data-aos="fade-right">
+          <div class="content">
+            <div class="content-t">
+              <h2 id="secsec" class="sbtitle-text" style="font-size: 2rem;">A project of humans, bees, nature</h2>
+              <h1 class="mntitle-text" style="font-size: 3.5rem;">& their coexistence</h1>
+            </div>
+            <p class="about-para">We are the honeybee people! We aim to facilitate the Indian apiculture industry and
+              its partners with a technology-based solution and a long-term objective of making this industry organized
+              and inclusive.</p>
+            <div class="buttons">
+              <a href="adopt.html" class="btn btn-primary">Adopt Now</a>
+              <a href="#contact" class="btn btn-primary">Join Community</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="mirror" style="background-color: #fff;">
+    <div class="container">
+      <div class="mirror-container">
+        <div class="mirror">
+          <img src="assets/img/4-1-bg.png" alt="Image 1">
+          <div class="text-container">
+            <h2 style="font-size: 4rem;font-weight:800; font-family:bochan;"> &nbsp;why&nbsp; </h2>
+
+            <p style="font-size: 2rem; font-family:bochan;">the bees</p>
+            <a href="#wh-open-modal" class="btn btn-primary mirrbtn">Know More</a>
+
+          </div>
+        </div>
+        <div class="mirror">
+          <img src="assets/img/3-1-bg.png" alt="Image 2">
+          <div class="text-container">
+            <h2 style="font-size: 4rem;font-weight:800; font-family:bochan;"> &nbsp;how&nbsp; </h2>
+            <p style="font-size: 2rem; font-family:bochan;">we care</p>
+            <a href="#hw-open-modal" class="btn btn-primary mirrbtn">Know More</a>
+
+          </div>
+        </div>
+        <div class="mirror">
+          <img src="assets/img/3-2-bg.png" alt="Image 3">
+          <div class="text-container">
+            <h2 style="font-size: 4rem;font-weight:800; font-family:bochan;">where</h2>
+            <p style="font-size: 2rem; font-family:bochan;">we thrive</p>
+            <a href="#wr-open-modal" class="btn btn-primary mirrbtn">Know More</a>
+
+          </div>
+          <div id="wh-open-modal" class="modal-window">
+            <div>
+              <a href="#" title="Close" class="modal-close">Close</a>
+              <h1>Why The Bees</h1>
+              <div>
+                <ul>
+
+                  <li>Exponential: Impact that bees have on Global ecological equilibrium.</li>
+                  <li>Contribution: in producing almost all fruits, vegetables, legumes, nuts & seeds, spices.</li>
+                  <li>Values: of leadership, co-existence and selflessness that bees teach us.</li>
+                </ul>
+              </div>
+
+
+            </div>
+          </div>
+          <div id="hw-open-modal" class="modal-window">
+            <div>
+              <a href="#" title="Close" class="modal-close">Close</a>
+              <h1>How We Care:</h1>
+              <div>
+                <ul>
+
+                  <li>Replacing and Restoring: We want all the bees to flourish and won't stop until we have restored
+                    semi-functioning and replaced the non-functioning bee boxes with scientifically curated, ethically
+                    practiced bee boxes.</li>
+                  <li>Contribution: in producing almost all fruits, vegetables, legumes, nuts & seeds, spices.</li>
+                  <li>Values: of leadership, co-existence and selflessness that bees teach us.</li>
+                </ul>
+              </div>
+
+
+            </div>
+          </div>
+          <div id="wr-open-modal" class="modal-window">
+            <div>
+              <a href="#" title="Close" class="modal-close">Close</a>
+              <h1>Where We thrive</h1>
+              <div>
+                <ul>
+
+                  <li>In building a fair trade community for all,</li>
+                  <li>In building friendships with nature and co-existing,</li>
+                  <li>Educating and involving,</li>
+                  <li>And practicing ethical beekeeping.</li>
+
+                </ul>
+              </div>
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="counter-sec" style="background-color: #fff;">
+    <div class="container" style="padding:50px;margin-bottom:50px;display: flex;
+   justify-content: center;
+   align-items: center;">
+
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="content-count"
+            style="display: flex;flex-direction:column;justify-content:center;align-items:center;">
+
+            <img src="assets/img/bee-i.png" style="height:100px;" alt="">
+            <p class="lead" data-max="410094.77" style="color: #4C4E53;">cr economic value of bee pollinated crops.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="content-count"
+            style="display: flex;flex-direction:column;justify-content:center;align-items:center;">
+
+            <!-- <i class="fa fa-user"style="color:black;margin-top:4%;margin-bottom:2%;"></i> -->
+            <img src="assets/img/heart.png" style="height:100px;" alt="">
+
+            <p class="lead" data-max="13" style="color: #4C4E53;"> lives directly impacted with one adoption.</p>
+          </div>
+        </div>
+        <!-- <div class="col-sm-3">
+          <i class="fa fa-lock"></i>
+          <h2 data-max="10">+ Projects</h2>
+        </div>
+        <div class="col-sm-3">
+          <i class="fa fa-briefcase"></i>
+          <h2 data-max="30" id="test">+ Developers</h2> -->
+      </div>
+    </div>
+    </div>
+    </div>
+
+  </section>
+
+  <section class="sec-section"  id="hivehive" style="  background-image: url('assets/img/hives-n.png');
+  background-color: rgba(0, 0, 0, 0.5);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+ ">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+
+          <div id="conthero" class="content-t" style="margin-top:210px;flex-direction:row;justify-content:space-between;width:100%">
+
+            <h2 class="sbtitle-text" style="font-size:5rem; font-weight:600;">mission</h2>
+            <h1 id="hivecounter" data-max="10000" class="mntitle-text" style="font-size:5rem; font-weight:600;"> hives
+            </h1>
+          </div>
+
+          <div id="hivbtn" class="buttons" style="justify-content: end;">
+            <a href="adopt.html" class="btn btn-primary" style=" font-weight:600;">Adopt Now</a>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="counter-sec" style="background-color: #fff;">
+    <div class="container" style="padding:50px;margin-bottom:50px;display: flex;
+    justify-content: center;
+    align-items: center;">
+
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="content-count"
+            style="display: flex;flex-direction:column;justify-content:center;align-items:center;">
+
+            <img src="assets/img/honeybtl.png" style="height:100px;" alt="">
+            <p class="lead" data-max="50" style="color: #4C4E53;"> Bottles of Honey</p>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="content-count"
+            style="display: flex;flex-direction:column;justify-content:center;align-items:center;">
+
+            <!-- <i class="fa fa-user"style="color:black;margin-top:4%;margin-bottom:2%;"></i> -->
+            <img src="assets/img/economy.png" style="height:100px;" alt="">
+
+            <p class="lead" data-max="2" style="color: #4C4E53;"> Year Plan</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="content-count"
+            style="display: flex;flex-direction:column;justify-content:center;align-items:center;">
+
+            <!-- <i class="fa fa-user"style="color:black;margin-top:4%;margin-bottom:2%;"></i> -->
+            <img src="assets/img/ethical.png" style="height:100px;" alt="">
+
+            <p class="lead" style="color: #4C4E53;"><strong>Ethical</strong> Traceable, purest and honest</p>
+          </div>
+        </div>
+        <!-- <div class="col-sm-3">
+           <i class="fa fa-lock"></i>
+           <h2 data-max="10">+ Projects</h2>
+         </div>
+         <div class="col-sm-3">
+           <i class="fa fa-briefcase"></i>
+           <h2 data-max="30" id="test">+ Developers</h2> -->
+      </div>
+    </div>
+    </div>
+    </div>
+
+  </section>
+
+
+
+
+  <section class="sec-section not-show-mb"
+    style="background-image: url('assets/img/banner.jpg'); background-color:#fff; background-position: right; background-repeat: no-repeat; background-size:cover; overflow: hidden;">
+
+
+  </section>
+
+
+
+
+  <section id="contact">
+    <div class="contact_us">
+      <div class="responsive-container-block container">
+        <form class="form-box" name="submit-to-google-sheet">
+          <p class="text-blk contact-head">
+            Get in touch
+          </p>
+          <!-- <p class="text-blk contact-subhead">
+           Join Our Community
+          </p> -->
+          <div class="container-block form-wrapper">
+            <div  class="responsive-container-block">
+              <div class="responsive-cell-block wk-ipadp-6 wk-tab-12 wk-mobile-12 wk-desk-6" id="i10mt-4">
+                <p class="text-blk input-title">
+                  First Name
+                </p>
+                <input class="input" id="ijowk-4" name="FirstName">
+              </div>
+              <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                <p class="text-blk input-title">
+                  Last Name
+                </p>
+                <input class="input" id="indfi-3" name="LastName">
+              </div>
+              <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                <p class="text-blk input-title">
+                  Email
+                </p>
+                <input class="input" id="ipmgh-4" name="Email">
+              </div>
+              <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                <p class="text-blk input-title">
+                  Phone No.
+                </p>
+                <input class="input" id="imgis-4" name="PhoneNumber">
+              </div>
+              <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i634i-4">
+                <p class="text-blk input-title">
+                  Message
+                </p>
+                <textarea class="textinput" id="i5vyy-4" name="message" placeholder="Write your message..."></textarea>
+              </div>
+            </div>
+            <button class="submit-btn">
+              Send Message
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center text-lg-start" style="background-color: #db6930;">
+    <div class="container d-flex justify-content-center py-5">
+      
+     
+      <a href="tel:+919081999912"><i style="color: #fff;padding:10px;font-size:2.5rem!important;" class="fa fa-phone"></i></a>
+      <a href="mailto:info@projectaq.org"><i style="color: #fff;padding:10px; font-size:2.5rem!important;"class="fa fa-envelope "></i></a>
+      <a href="https://goo.gl/maps/ujirRDMSRkmh4uF37"><i style="color: #fff;padding:10px ;font-size:2.5rem!important;"class="fa fa-map-marker "></i></a>
+      <a href="https://www.instagram.com/project.aq/"><i style="color: #fff;padding:10px ;font-size:2.5rem!important;"class="fa fa-instagram"></i></a>
+      
+   
+
+    <!-- Copyright -->
+  </div>
+    <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © Sah-Astitva Private Limited - 2023 Copyright:
+    </div>
+    <!-- Copyright -->
+  </footer>
+  
+
+  <!-- Add your scripts -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    // jQuery code for animation in the new section
+    $(document).ready(function () {
+      $(".new-section .left-content, .new-section .right-content").addClass("animated");
+    });
+
+    // JavaScript to handle the click event for opening the aesthetic menu
+    document.getElementById("aesthetic-menu-btn").addEventListener("click", function () {
+      const aestheticMenu = document.getElementById("aesthetic-menu");
+      const menuItems = document.querySelectorAll(".dropdown-item");
+
+      // Toggle the menu visibility
+      aestheticMenu.classList.toggle("show");
+
+      // Toggle the animation for menu items
+      menuItems.forEach((item, index) => {
+        if (aestheticMenu.classList.contains("show")) {
+          item.style.animation = `slideInMenu 0.3s ease forwards ${index / 10}s`;
+        } else {
+          item.style.animation = "";
+        }
+      });
+
+      // Toggle the animation for vector menu image
+      const vectorMenu = document.querySelector(".toggle-menu-btn img");
+      if (aestheticMenu.classList.contains("show")) {
+        vectorMenu.style.transform = "rotate(45deg)";
+      } else {
+        vectorMenu.style.transform = "rotate(0)";
+      }
+    });
+
+    function inVisible(element) {
+      //Checking if the element is
+      //visible in the viewport
+      var WindowTop = $(window).scrollTop();
+      var WindowBottom = WindowTop + $(window).height();
+      var ElementTop = element.offset().top;
+      var ElementBottom = ElementTop + element.height();
+      //animating the element if it is
+      //visible in the viewport
+      if ((ElementBottom <= WindowBottom) && ElementTop >= WindowTop)
+        animate(element);
+    }
+
+    function animate(element) {
+      //Animating the element if not animated before
+      if (!element.hasClass('ms-animated')) {
+        var maxval = element.data('max');
+        var html = element.html();
+        element.addClass("ms-animated");
+        $({
+          countNum: element.html()
+        }).animate({
+          countNum: maxval
+        }, {
+          //duration 5 seconds
+          duration: 5000,
+          easing: 'linear',
+          step: function () {
+            element.html(Math.floor(this.countNum) + html);
+          },
+          complete: function () {
+            element.html(this.countNum + html);
+          }
+        });
+      }
+
+    }
+
+    //When the document is ready
+    $(function () {
+      //This is triggered when the
+      //user scrolls the page
+      $(window).scroll(function () {
+        //Checking if each items to animate are 
+        //visible in the viewport
+        $("p[data-max],#hivecounter[data-max]").each(function () {
+          inVisible($(this));
+        });
+      })
+    });
+
+
+  </script>
+  <script>
+    // Function to check if an element is in the viewport
+    function isElementInViewport(el) {
+      var rect = el.getBoundingClientRect();
+      return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+      );
+    }
+
+    // Function to handle the scroll event and trigger animations
+    function onScroll() {
+      $(".animate-on-scroll").each(function () {
+        if (isElementInViewport(this)) {
+          $(this).addClass("fade-up");
+        }
+      });
+    }
+
+    // Attach the onScroll function to the window's scroll event
+    $(window).on("scroll", onScroll);
+
+    // Trigger the onScroll function once on page load to check if elements are already in view
+    $(document).ready(function () {
+      onScroll();
+    });
+  </script>
+<script>
+  if ($(window).width() < 767) {
+    // change functionality for smaller screens
+    $("#herointr").removeClass("m-5");
+    $("#herointr .content-t").css("width","100%");
+    $("#herointr .about-para").css("font-size","1.6rem");
+    $("h1.mntitle-text").css("font-size","1.6rem !important");
+    $("#herointr .about-para").css("line-height","1.88rem");
+    $("#hivbtn").css("justify-content","center");
+    $("#hivbtn").css("margin-top","-30px");
+    $("#hivbtn").css("margin-bottom","30px");
+    $("#conthero").css("flex-direction","column");
+    $("#conthero").css("justify-content","center");
+    $("#conthero").css("align-items","center");
+    $("#hivehive").css("min-height","20vh");
+    $(".modal-window > div").css("width","85%");
+    
+     
+    
+    $(".show-mb").css("display","block");
+    $(".not-show-mb").css("display","none");
+    
+    
+    
+  } else {
+    // change functionality for larger screens
+    $(".modal-window > div").css("width","50%");
+
+    // You can also set the style back to the original for larger screens, if needed.
+  }
+</script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  
+<script>
+ 
+
+
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzpM2ZUmdl0yWAsqjC1CFwrk7SDf6XoF6tpudvEoQTAG60FphpaWthnjiT6G70nZpvQRw/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    const data = new FormData(form)
+  
+    fetch(scriptURL, {
+      method: 'POST',
+      body: data
+    })
+    .then(response => {
+      console.log('Success!', response);
+      form.reset(); // This line will clear the form fields after successful submission
+    })
+      .catch(error => console.error('Error!', error.message))
+  })
+  function doPost(e) {
+      const data = e.postData.getDataAsString()
+      const sheet = SpreadsheetApp.openById('1diPLpXGDW-xwCpX5NW_4_U4Ux4_HBLQimS_r7WZtD_Q')
+      const values = JSON.parse(data)
+      sheet.getRange('A1').setValues(values)
+    }
+            
+</script>
+
+</body>
+
+</html>
